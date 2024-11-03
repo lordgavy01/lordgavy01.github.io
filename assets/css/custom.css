@@ -1,0 +1,174 @@
+body {
+    /* font-family: Roboto, sans-serif; */
+    font-weight: 300;
+    font-size: 1rem;
+    /* --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; */
+}
+
+.page__content a {
+    text-decoration: none;
+    color: brown;
+}
+
+.greedy-nav {
+    color: black;
+}
+
+.greedy-nav a {
+    color: black;
+}
+
+.greedy-nav a:hover {
+    color:dodgerblue;
+}
+
+.page__content p {
+    /* font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 1rem; */
+    font-weight: 400;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-size: 1em;
+}
+
+.page__content {
+    /* font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 1rem; */
+    font-weight: 400;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-size: 1em;
+}
+
+table {
+    border: transparent;
+    font-weight: 400;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-size: 0.9em;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: auto; 
+    border-collapse: separate;       
+    max-height: 250px; /* Fixed height */    
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 1em;
+}
+
+thead {
+    background-color: transparent;
+    border: transparent;
+    border-right: transparent;    
+    z-index: 2;        
+}
+
+td {
+    border: transparent;
+    border-right: transparent;    
+}
+
+tr {
+    border: transparent;
+}
+
+th {
+    border: transparent;
+}
+
+.scrollable-table {
+    overflow-x: auto;
+    margin-bottom: 1em;
+  }
+  
+.scrollable-table table {
+width: 100%;
+min-width: 600px; /* Adjust as needed */
+}
+
+.page__content table th:first-child,
+.page__content table td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  width: 100px;  
+  background-color: transparent;
+}
+
+#theme-toggle {
+    visibility: visible;
+    display: block;
+}
+
+.scrollable-table {
+    overflow-x: auto;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.scrollable-table table {
+    width: 100%;
+    min-width: 600px; /* Adjust as needed */
+    margin-bottom: 20px; /* Space for the line */
+}
+
+.scrollable-table::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: black;
+}
+
+.page__footer {
+    margin-top: 0rem;
+}
+
+#main {
+    padding-left: 2rem;
+}
+
+@media (min-width: 80em) {
+    #main {
+      max-width:1280px
+    }
+  }
+  @media (min-width: 57.8125em) {
+    .page {
+      width:83.0508474576%;
+      float:right;
+      margin-right:0;
+      padding-left:4.2372881356%;
+      padding-right:16.9491525424%
+    }
+  }
+
+  #max{
+    max-width: 925px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    margin-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    animation-delay: 0.35s;
+  }  
+
+  .page__content h2 {
+    border: 0px transparent;
+    margin-bottom: 1.5rem;
+  }
+
+  a.pub-button {
+    color: black;
+  }  
+
+  a.pub-button:hover {
+    color: brown;
+  }
+

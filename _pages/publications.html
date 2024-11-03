@@ -1,0 +1,52 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+<h2>Publications</h2>
+
+{% raw %}
+{% for pub in site.data.publications %}
+  <div class="publication-item">
+    <div class="arxiv-tag">{{ pub.archivePrefix }}:{{ pub.primaryClass }}</div>
+    {{ pub.title }}
+    {% for author in pub.authors %}
+      {{ author.name }}{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+    {{ pub.archivePrefix }}:{{ pub.eprint }} [{{ pub.primaryClass }}], {{ pub.year }}. <a href="{{ pub.url }}">arXiv</a>
+    
+    <a href="#" onclick="toggleAbstract('abstract-{{ pub.key }}'); return false;">ABS</a>
+    <a href="https://arxiv.org/pdf/{{ pub.eprint }}.pdf">PDF</a>
+    {% if pub.links.code %}
+      <a href="{{ pub.links.code }}">CODE</a>
+    {% endif %}
+    
+    {% if pub.metrics.citations or pub.metrics.downloads %}
+      {% if pub.metrics.citations %}
+        Citations: {{ pub.metrics.citations }}
+      {% endif %}
+      {% if pub.metrics.downloads %}
+        {% if pub.metrics.citations %} | {% endif %}
+        Downloads: {{ pub.metrics.downloads }}
+      {% endif %}
+    {% endif %}
+    
+    <div id="abstract-{{ pub.key }}" style="display: none;">
+      {{ pub.abstract }}
+    </div>
+  </div>
+{% endfor %}
+{% endraw %}
+
+<script>
+function toggleAbstract(id) {
+  var abstract = document.getElementById(id);
+  if (abstract.style.display === "none") {
+    abstract.style.display = "block";
+  } else {
+    abstract.style.display = "none";
+  }
+}
+</script>

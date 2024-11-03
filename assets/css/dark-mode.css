@@ -1,0 +1,55 @@
+/* Dark mode styles */
+body.dark-mode {
+    background-color: red;
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode .page__content {
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode .page__title,
+  body.dark-mode .page__meta,
+  body.dark-mode .page__lead,
+  body.dark-mode .btn {
+    color: #ffffff;
+  }
+  
+  body.dark-mode .site-title {
+    color: #ffffff;
+  }
+  
+  body.dark-mode .greedy-nav {
+    background: #1e1e1e;
+  }
+  
+  body.dark-mode .greedy-nav a {
+    color: #ffffff;
+  }
+  
+  body.dark-mode .page__footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  div.scrollable-table {
+    overflow-x: auto;
+    margin-bottom: 1em;
+    position: relative;
+  }
+
+  .scrollable-table table {
+    width: 100%;
+    min-width: 600px; /* Adjust as needed */
+    margin-bottom: 20px; /* Space for the line */
+  }
+
+  div.scrollable-table::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: white;
+  }

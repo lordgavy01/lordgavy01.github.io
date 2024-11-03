@@ -1,0 +1,147 @@
+// _dark-mode.scss
+
+// _dark-mode.scss
+
+// ... (keep the existing dark mode styles)
+
+// Style for the toggle link
+#theme-toggle {
+    cursor: pointer;
+    padding: 0.5em 1em;
+    color: $text-color;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1rem;
+    transition: color 0.2s ease-in-out;
+  
+    &:hover {
+      color: $link-color;
+    }
+  
+    #theme-toggle-icon {
+      margin-right: 0.3em;
+    }
+  }
+  
+  // ... (rest of the styles remain the same)
+.dark-theme {
+    $dark-background: #1a1a1a;
+    $dark-text: #e0e0e0;
+  
+    background-color: $dark-background;
+    color: $dark-text;
+  
+    // Invert some colors for dark mode
+    $dark-body-color: $dark-gray;
+    $dark-background-color: $darker-gray;
+    $dark-code-background-color: #2a2a2a;
+    $dark-code-background-color-dark: $dark-gray;
+    $dark-text-color: $light-gray;
+    $dark-border-color: $gray;
+  
+    body {
+      background-color: $dark-background-color;
+      color: $dark-text-color;
+    }
+  
+    .site-title,
+    .site-title:visited {
+      color: $dark-text;
+    }
+  
+    .masthead {
+      background-color: $dark-background;
+      border-bottom: 1px solid $dark-border-color;
+    }
+  
+    .greedy-nav {
+      background: $dark-background;
+  
+      a {
+        color: $dark-text;
+      }
+  
+      .visible-links a:before {
+        background: $dark-text;
+      }
+    }
+  
+    .page__content {
+      a, a:visited {
+        color: lighten($link-color, 15%);
+      }
+      a.pub-button {
+        color: white;
+      }
+      a.pub-button:hover {
+        color: dodgerblue;
+        border: 1px solid dodgerblue;        
+      }
+    }
+  
+    .page__footer {
+      color: $dark-text !important; // override
+      background-color: $dark-gray !important; // override
+    }
+  
+    .page__footer-follow .social-icons .svg-inline--fa {
+      color: inherit;
+    }
+
+    .social-icons {
+        color: #e0e0e0;
+    }
+
+    .social-icons .fa {
+        color: #e0e0e0;
+    }
+
+    .social-icons .fa-github {
+        color: #e0e0e0;
+    }
+
+    #theme-toggle {
+        color: $light-gray;
+    }
+    // Add more selectors as needed to style other elements in dark mode
+
+    // Change text highlight color for dark mode
+    ::selection {
+        background-color: #505050; // A darker shade for the highlight
+        color: #ffffff; // White text for contrast
+    }
+
+    ::-moz-selection {
+        background-color: #505050; // For Firefox
+        color: #ffffff;
+    }
+
+
+    .scrollable-table::after {
+      content: '';
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background-color: white;
+    }
+
+
+    a.pub-button {
+      border-color: white;
+    }  
+  
+
+    }
+  
+  // Style for the toggle button
+  #theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color: currentColor;
+    font-size: 1em;
+    margin-left: 1em;
+  }
