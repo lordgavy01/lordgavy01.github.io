@@ -1,6 +1,6 @@
 /* Dark mode styles */
 body.dark-mode {
-    background-color: red;
+    background-color: #121212;
     color: #e0e0e0;
   }
   
@@ -32,24 +32,4 @@ body.dark-mode {
     color: #ffffff;
   }
   
-  div.scrollable-table {
-    overflow-x: auto;
-    margin-bottom: 1em;
-    position: relative;
-  }
-
-  .scrollable-table table {
-    width: 100%;
-    min-width: 600px; /* Adjust as needed */
-    margin-bottom: 20px; /* Space for the line */
-  }
-
-  div.scrollable-table::after {
-    content: '';
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background-color: white;
-  }
+  /* Add more selectors as needed */

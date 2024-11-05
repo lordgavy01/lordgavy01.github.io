@@ -70,13 +70,6 @@
       a, a:visited {
         color: lighten($link-color, 15%);
       }
-      a.pub-button {
-        color: white;
-      }
-      a.pub-button:hover {
-        color: dodgerblue;
-        border: 1px solid dodgerblue;        
-      }
     }
   
     .page__footer {
@@ -115,23 +108,6 @@
         background-color: #505050; // For Firefox
         color: #ffffff;
     }
-
-
-    .scrollable-table::after {
-      content: '';
-      position: absolute;
-      bottom: 0px;
-      left: 0;
-      right: 0;
-      height: 2px;
-      background-color: white;
-    }
-
-
-    a.pub-button {
-      border-color: white;
-    }  
-  
 
     }
   
