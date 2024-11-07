@@ -86,7 +86,7 @@ th {
   
 .scrollable-table table {
 width: 100%;
-min-width: 600px; /* Adjust as needed */
+min-width: 0px; /* Adjust as needed */
 }
 
 .page__content table th:first-child,
@@ -105,13 +105,17 @@ min-width: 600px; /* Adjust as needed */
 
 .scrollable-table {
     overflow-x: auto;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
     position: relative;
+}
+
+h1 {
+    margin-bottom: 2rem;
 }
 
 .scrollable-table table {
     width: 100%;
-    min-width: 600px; /* Adjust as needed */
+    min-width: 0px; /* Adjust as needed */
     margin-bottom: 20px; /* Space for the line */
 }
 
@@ -144,7 +148,7 @@ min-width: 600px; /* Adjust as needed */
       float:right;
       margin-right:0;
       padding-left:4.2372881356%;
-      padding-right:16.9491525424%
+      padding-right:0;
     }
   }
 

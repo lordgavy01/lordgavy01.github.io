@@ -17,14 +17,6 @@ I graduated from IIIT-Hyderabad with a Dual (B.Tech + MS) Degree in Computer Sci
 
 If you wish to connect, please drop an email to [**vikrant.dewangan@research.iiit.ac.in**](mailto:vikrant.dewangan@research.iiit.ac.in)
 
-Research
-======
-My research is broadly in the following areas:
-
-- Autonomous Driving - Uncertainty Estimation
-- Foundational Models applications in Autonomous Driving
-- Swarm Robotics
-
 
 News
 ======
@@ -42,11 +34,11 @@ News
 
 {% include scrollable_table.html content=table_content %}
 
-## Publications
+# Selected Publications
 
 <div class="publications-container">
-  {% for pub in site.data.publications %}
-    <div class="publication-item">
+  {% for pub in site.data.selected_publications %}
+    <div class="selected-publication-item">
       <img src="{{ pub.image | default: '/path/to/default/image.jpg' }}" alt="{{ pub.title }}" class="publication-image">
       <div class="publication-content">
         <div class="publication-title">{{ pub.title }}</div>
