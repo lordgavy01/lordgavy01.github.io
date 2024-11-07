@@ -244,6 +244,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _pages
+  - scope:
+      path: ""
+      type: site
+    values:
+      layout: single
+      author_profile: true      
   # _teaching
   - scope:
       path: ""
