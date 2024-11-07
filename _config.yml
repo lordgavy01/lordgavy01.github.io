@@ -155,6 +155,10 @@ include:
   - files
   - assets/js/dark-mode-toggle.js
   - assets/css/dark-mode.css
+  - assets/css/custom.css
+  - .sass
+  - assets/js/theme.js
+  - assets/js/dark-mode-toggle.js  
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
