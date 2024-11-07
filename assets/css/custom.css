@@ -148,7 +148,6 @@ h1 {
       float:right;
       margin-right:0;
       padding-left:4.2372881356%;
-      padding-right:0;
     }
   }
 
@@ -176,3 +175,6 @@ h1 {
     color: brown;
   }
 
+article {
+    max-width: 1000px;
+}

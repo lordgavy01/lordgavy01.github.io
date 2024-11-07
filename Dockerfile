@@ -16,6 +16,9 @@ COPY Gemfile Gemfile.lock ./
 # Install bundler and dependencies
 RUN gem install bundler:2.3.26 && bundle install
 
+# Copy the entire site directory, including the _site/ folder
+COPY . .
+
 # Expose port 4000 for Jekyll server
 EXPOSE 4000
 

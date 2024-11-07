@@ -7,10 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-
-About Me
-======
-
 I am a Research Engineer at [Sprinklr](https://www.sprinklr.com/) working on Conversational AI chatbots. 
 
 I graduated from IIIT-Hyderabad with a Dual (B.Tech + MS) Degree in Computer Science. I worked under  [Prof. Madhava Krishna](https://scholar.google.com/citations?user=QDuPGHwAAAAJ&hl=en) at the [Robotics Research Center](https://robotics.iiit.ac.in/), where I worked on the areas of Autonomous Driving along with [Prof. Arun K. Singh](https://scholar.google.com/citations?user=0zgDoIEAAAAJ&hl=en). Later, I also collaborated with [Dr. Krishna Murthy Jatavallabhula](https://krrish94.github.io/) and we studied application of some Vision-Language Models in Autonomous Driving. I also explored Swarm Robotics along with [Prof. Harikumar Kandath](https://www.researchgate.net/profile/Harikumar-Kandath). 
