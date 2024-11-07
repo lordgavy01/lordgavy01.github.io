@@ -42,3 +42,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
     toggleLink.addEventListener('click', toggleTheme);
   }
 });
+
+
+function toggleAbstract(id) {
+  var abstract = document.getElementById(id);
+  abstract.classList.toggle('show');
+}

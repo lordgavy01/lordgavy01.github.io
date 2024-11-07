@@ -41,3 +41,34 @@ News
 {% endcapture %}
 
 {% include scrollable_table.html content=table_content %}
+
+## Publications
+
+<div class="publications-container">
+  {% for pub in site.data.publications %}
+    <div class="publication-item">
+      <img src="{{ pub.image | default: '/path/to/default/image.jpg' }}" alt="{{ pub.title }}" class="publication-image">
+      <div class="publication-content">
+        <div class="publication-title">{{ pub.title }}</div>
+        <div class="publication-authors">
+          {% for author in pub.authors %}
+            <a href="#">{{ author.name }}{% if author.superscript %}{{ author.superscript }}{% endif %}</a>{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        </div>
+        <div class="publication-info">
+          <em>{{ pub.journal }}</em> {{ pub.date | date: "%Y" }}
+        </div>
+        <div class="publication-links">
+          <button class="rbtn" onclick="toggleAbstract('abstract{{ forloop.index }}')"><a class="pub-button">ABS</a></button>
+          {% if pub.html_link %}<a href="{{ pub.html_link }}" class="pub-button">HTML</a>{% endif %}
+          {% if pub.pdf_link %}<a href="{{ pub.pdf_link }}" class="pub-button">PDF</a>{% endif %}
+          {% if pub.video_link %}<a href="{{ pub.video_link }}" class="pub-button">VIDEO</a>{% endif %}
+        </div>
+        <div id="abstract{{ forloop.index }}" class="abstract">
+          {{ pub.abstract }}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
