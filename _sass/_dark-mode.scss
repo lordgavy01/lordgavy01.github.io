@@ -112,7 +112,7 @@
 
     .selected-publication-item {
       display: flex;
-      background-color: #363d00;
+      background-color: #291e23;
       padding-bottom: 15px;
       margin-bottom: 10px;
       padding-bottom: 15px;
@@ -121,8 +121,79 @@
       border-radius: 20px    
     }  
 
+    /* Extra strong divider with gradient or shadow */
+    hr.strong-divider {
+      background-color: #fff;  
+    }
+
+
+    .pub-button a{
+      color: white;
+      border-color: white;
+      text-decoration: none;
+    }
+    
+    .pub-button {
+      color: white;
+      border-color: white;  
+      text-decoration: none;    
+    }
+
+    .pub-button a:visited{
+      color: #03e825;
+      border-color: white;
+    }
+
+    .pub-button a:hover{
+      color: brown;
+      border-color: white;
+    }
+
+    .publication-authors a {
+      color: #80c28a;
+      text-decoration: none;
+    }
+
+    .publication-authors a:hover {
+      color: #03e825;
+      text-decoration: underline;
+    }
+
+    .pub-button:hover {
+      text-decoration: underline;
+      color: brown;
+    }  
+      
+    a.pub-button {
+      color: white;
+    }
+
+    .pub-button:hover {
+      border: 1px solid #03e825;
+      text-decoration: underline;
     }
   
+    .dark-theme .page__content .pub-button a{
+      color: white;
+    }
+  
+    /* Make sure the button styles are strong enough */
+    .pub-button {
+      color: white !important;
+      text-decoration: none;
+      /* Add your other button styles */
+    }
+
+
+    /* Make sure the button styles are strong enough */
+    .pub-button:hover {
+      color: #80c28a !important;
+      text-decoration: underline;
+      /* Add your other button styles */
+    }
+
+    }
+
   // Style for the toggle button
   #theme-toggle {
     background: none;

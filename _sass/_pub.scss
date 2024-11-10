@@ -7,7 +7,7 @@
     margin-bottom: 10px;
     padding-bottom: 15px;
     margin-top: 10px;
-    padding: 20px;
+    padding: 0px;
     border-radius: 20px    
   }
   .selected-publication-item {
@@ -59,7 +59,7 @@
     color: inherit;
   }
   .publication-authors a {
-    color: #2980b9;
+    color: brown;
     text-decoration: none;
   }
   .publication-info {
@@ -76,8 +76,8 @@
     padding-right: 1rem;
     padding-top: .25rem;
     padding-bottom: .25rem;
-    border: 1px solid black;
     border-radius: 3px;
+    border: 1px solid black;    
     background-color: transparent;
     text-decoration: none;
     color: inherit;
@@ -85,12 +85,14 @@
     font-weight: 400;
   }
   .pub-button a{
-    color: black;
+    color: brown;
+    border: 1px solid black;
+    text-decoration: none;
   }
   .pub-button:hover {
     border: 1px solid brown;
     text-decoration: none;
-  }  
+  }
   a.pub-button:hover {
     text-decoration: none;
   }
@@ -135,3 +137,297 @@
     border: 0px transparent;
     padding-bottom: 5px;
   }
+
+  .archive {
+    margin: 0;  /* Remove any default margins */
+    padding: 0;  /* Remove any default padding */
+    float: left;  /* Make it float left */
+    width: 100%;  /* Take full width */
+  }
+  
+  .main-publications-container {
+    float: left;
+    width: 100%;
+    padding: 0px;  /* Add some padding if needed */
+  }
+  
+  .publication-item {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;  /* Space between publications */
+  }
+  
+  /* Clear floats after items */
+  .publication-item::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Optional: Style for the image and content layout */
+  .main-publication-image {
+    float: left;
+    width: 200px;  /* Or whatever width you prefer */
+    margin-right: 20px;
+  }
+  
+  .publication-content {
+    overflow: hidden;  /* Creates new block formatting context */
+  }
+
+/* Base styles */
+.publication-content {
+  display: flex;
+  flex-direction: column;  /* Stack content vertically */
+  width: 100%;
+}
+
+/* Mobile and responsive styles */
+@media screen and (max-width: 800px) {
+  div.publication-content {
+    width: 100%;
+    padding: 15px;
+    padding-right: 0px;
+    box-sizing: border-box;
+  }
+
+  .main-publication-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    display: block;  /* Ensure image is on its own line */
+  }
+
+  .publication-title {
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 1.4;
+    word-wrap: break-word;  /* Handle long titles */
+  }
+
+  .publication-authors {
+    width: 100%;
+    margin: 8px 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .publication-info {
+    width: 100%;
+    margin: 8px 0;
+  }
+
+  /* Make buttons wrap properly */
+  .publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 10px 0;
+  }
+
+  .pub-button {
+    margin: 5px;
+    white-space: nowrap;
+  }
+}
+
+/* Handle very small screens */
+@media screen and (max-width: 360px) {
+  .publication-content {
+    padding: 10px;
+    padding-right: 0px;
+  }
+
+  .publication-title {
+    font-size: 14px;
+  }
+
+  .publication-authors,
+  .publication-info {
+    font-size: 12px;
+  }
+}
+
+.publication-title,
+.publication-content {
+  writing-mode: horizontal-tb !important;  /* Force horizontal text */
+  text-orientation: mixed;
+  width: 100%;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 800px) {
+  .publication-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .main-publication-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .publication-content {
+    width: 100%;
+    padding: 10px;
+    padding-right: 0px;
+  }
+
+  .publication-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+    /* Ensure text stays horizontal */
+    writing-mode: horizontal-tb !important;
+  }
+
+  /* Force all text elements to be horizontal */
+  .publication-authors,
+  .publication-info,
+  .publication-links,
+  .abstract {
+    writing-mode: horizontal-tb !important;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* Desktop styles */
+@media screen and (min-width: 801px) {
+  .publication-item {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  .main-publication-image {
+    width: 400px;  /* Larger size for desktop */
+    height: auto;
+    object-fit: contain;
+    flex-shrink: 0;  /* Prevent image from shrinking */
+  }
+
+  .publication-content {
+    flex: 1;  /* Take remaining space */
+    padding: 0 20px;
+  }
+}
+
+/* Mobile styles (keep your existing mobile CSS) */
+@media screen and (max-width: 800px) {
+  .publication-item {
+    flex-direction: column;
+  }
+
+  .main-publication-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Desktop styles */
+@media screen and (min-width: 801px) {
+  .publication-item {
+    display: flex;
+    align-items: flex-start;  /* Align items to the top */
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  .main-publication-image {
+    width: 240px;
+    height: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+    margin-top: 0;  /* Remove any top margin */
+  }
+
+  .publication-content {
+    flex: 1;
+    padding: 0 20px;
+    margin-top: 0;  /* Remove any top margin */
+  }
+
+  .publication-title {
+    margin-top: 0;  /* Remove top margin from title */
+    margin-bottom: 15px;  /* Add space below title */
+  }
+
+  /* Ensure author names align properly */
+  .publication-authors {
+    margin-top: 0;
+    line-height: 1.5;
+  }
+}
+
+/* Option 1: Using HR element with styling */
+hr.divider {
+  border: 0;
+  height: 1px;
+  background-color: #ddd;  /* Light grey color */
+  margin: 30px 0;  /* Space above and below */
+  width: 100%;
+}
+
+/* Option 2: Using border on the section */
+.publication-item {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+/* Extra strong divider with gradient or shadow */
+hr.strong-divider {
+  border: 0;
+  height: 1.5px;
+  /* or solid black */
+  background-color: #000;  
+  margin: 40px 0;
+  width: 100%;
+}
+
+.full-text {
+  max-width: 930px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.dark-theme .page__content a {
+  color: #80c28a;
+}
+
+.dark-theme .page__content a:visited {
+  color: #80c28a;
+}
+
+
+.dark-theme .page__content a.pub-button :visited {
+  color: white;
+}
+
+/* You might need higher specificity for the button */
+.dark-theme .page__content .publication-links a.pub-button:visited {
+  color: white !important;  /* Use important only if really needed */
+}
+
+
+/* You might need higher specificity for the button */
+.dark-theme .page__content .publication-links a.pub-button:visited:hover{
+  color: #80c28a !important;  /* Use important only if really needed */
+}
+
+.pub-button {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.pub-button:hover {
+  color: brown !important;
+  text-decoration: underline  !important;
+}

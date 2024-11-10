@@ -1,10 +1,10 @@
 - title: "Talk2BEV: Language-Enhanced Bird's Eye View (BEV) Maps"
   authors:
-    - name: "Vikrant Dewangan"
+    - name: "Vikrant Dewangan <sup>*</sup>"
       superscript: ""
-    - name: "Tushar Choudhary"
+    - name: "Tushar Choudhary <sup>*</sup>"
       superscript: ""    
-    - name: Shivam Chandhok
+    - name: Shivam Chandhok <sup>*</sup>
       superscript: ""
     - name: Shubham Priyadarshan
       superscript: ""

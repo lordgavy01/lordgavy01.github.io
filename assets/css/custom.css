@@ -167,14 +167,6 @@ h1 {
     margin-bottom: 1.5rem;
   }
 
-  a.pub-button {
-    color: black;
-  }  
-
-  a.pub-button:hover {
-    color: brown;
-  }
-
 article {
     max-width: 1000px;
 }
