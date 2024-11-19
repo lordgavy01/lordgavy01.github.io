@@ -1,22 +1,18 @@
 - title: "Talk2BEV: Language-Enhanced Bird's Eye View (BEV) Maps"
   authors:
-    - name: "Vikrant Dewangan <sup>*</sup>"
-      superscript: ""
-    - name: "Tushar Choudhary <sup>*</sup>"
-      superscript: ""    
-    - name: Shivam Chandhok <sup>*</sup>
-      superscript: ""
-    - name: Shubham Priyadarshan
-      superscript: ""
-    - name: Anushka Jain
-      superscript: ""
-    - name: Arun K. Singh
-      superscript: ""
-    - name: Siddharth Srivastava
-      superscript: ""
-    - name: Krishna Murthy Jatavallabhula
+    - id: vikrant
+      superscript: "*"
+    - id: tushar
+      superscript: "*"
+    - id: shivam
+      superscript: "*"
+    - id: shubham
+    - id: anushka
+    - id: arun
+    - id: siddharth
+    - id: krishna_m
       superscript: "†"
-    - name: K. Madhava Krishna
+    - id: madhava
       superscript: "†"
   journal: "ICRA"
   location: "Japan"

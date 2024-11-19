@@ -8,7 +8,6 @@
     padding-bottom: 15px;
     margin-top: 10px;
     padding: 0px;
-    border-radius: 20px    
   }
   .selected-publication-item {
     display: flex;
@@ -18,7 +17,6 @@
     padding-bottom: 15px;
     margin-top: 10px;
     padding: 20px;
-    border-radius: 20px    
   }  
   .publication-image {
     width: 20%;
@@ -430,4 +428,8 @@ hr.strong-divider {
 .pub-button:hover {
   color: brown !important;
   text-decoration: underline  !important;
+}
+
+.archive a:hover {
+  color: red;
 }

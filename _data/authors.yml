@@ -1,18 +1,38 @@
-# Authors
-
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+vikrant:
+  name: "Vikrant Dewangan"
+tushar:
+  name: "Tushar Choudhary"
+  link: "https://github.com/tusharc31/"
+shivam:
+  name: "Shivam Chandhok"
+  link: "https://scholar.google.com/citations?user=ZER2BeIAAAAJ&hl=en"
+shubham:
+  name: "Shubham Priyadarshan"
+  link: "https://rudeninja.github.io/"
+anushka:
+  name: "Anushka Jain"
+  link: "https://github.com/anushkaj1"
+arun:
+  name: "Arun K. Singh"
+  link: "https://scholar.google.com/citations?user=0zgDoIEAAAAJ&hl=en"
+siddharth:
+  name: "Siddharth Srivastava"
+  link: "https://siddharthsrivastava.github.io/"
+krishna_m:
+  name: "Krishna Murthy Jatavallabhula"
+  link: "https://krrish94.github.io/"
+madhava:
+  name: "K. Madhava Krishna"
+  link: "https://scholar.google.com/citations?user=QDuPGHwAAAAJ&hl=en"
+harikumar:
+  name: "Harikumar Kandath"
+  link: "https://www.researchgate.net/profile/Harikumar-Kandath"
+basant:
+  name: "Basant Sharma"
+  link: "https://scholar.google.com/citations?user=2TpShTIAAAAJ&hl=en"
+sarthak:
+  name: "Sarthak Sharma"
+  link: "https://scholar.google.com/citations?user=4uKV9aIAAAAJ&hl=en"
+aakash:
+  name: "Aakash Aanegola"
+  link: "https://aa-aanegola.github.io/"

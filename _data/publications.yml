@@ -1,22 +1,18 @@
 - title: "Talk2BEV: Language-Enhanced Bird's Eye View (BEV) Maps"
   authors:
-    - name: "Vikrant Dewangan <sup>*</sup>"
-      superscript: ""
-    - name: "Tushar Choudhary <sup>*</sup>"
-      superscript: ""    
-    - name: Shivam Chandhok <sup>*</sup>
-      superscript: ""
-    - name: Shubham Priyadarshan
-      superscript: ""
-    - name: Anushka Jain
-      superscript: ""
-    - name: Arun K. Singh
-      superscript: ""
-    - name: Siddharth Srivastava
-      superscript: ""
-    - name: Krishna Murthy Jatavallabhula
+    - id: vikrant
+      superscript: "*"
+    - id: tushar
+      superscript: "*"
+    - id: shivam
+      superscript: "*"
+    - id: shubham
+    - id: anushka
+    - id: arun
+    - id: siddharth
+    - id: krishna_m
       superscript: "†"
-    - name: K. Madhava Krishna
+    - id: madhava
       superscript: "†"
   journal: "ICRA"
   location: "Japan"
@@ -28,10 +24,8 @@
   video_link: "https://www.youtube.com/watch?v=3MrA6DiDXCA&list=TLGGDIbYm15NtbAxMjEwMjAyNA"
 - title: "MPC-Based Obstacle Aware Multi-UAV Formation Control Under Imperfect Communication"
   authors:
-    - name: "Vikrant Dewangan"
-      superscript: ""
-    - name: "Harikumar Kandath"
-      superscript: ""
+    - id: vikrant
+    - id: harikumar
   journal: "ICARA"
   location: "Greece"
   date: 2024-01-10
@@ -42,19 +36,13 @@
   video_link: "https://www.youtube.com/watch?v=GueaebO0zXw"
 - title: "UAP-BEV: Uncertainty Aware Planning using Bird's Eye View generated from Surround Monocular Images"
   authors:
-    - name: "Vikrant Dewangan"
-      superscript: ""
-    - name: "Basant Sharma"
-      superscript: ""
-    - name: "Tushar Choudhary"
-      superscript: ""
-    - name: "Sarthak Sharma"
-      superscript: ""
-    - name: "Aakash Aanegola"
-      superscript: ""
-    - name: Arun K. Singh
-      superscript: ""
-    - name: K. Madhava Krishna
+    - id: vikrant
+    - id: basant
+    - id: tushar
+    - id: sarthak
+    - id: aakash
+    - id: arun
+    - id: madhava
       superscript: "†"
   journal: "CASE"
   location: "New Jersey"

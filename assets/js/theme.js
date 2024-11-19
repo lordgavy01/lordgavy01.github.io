@@ -23,7 +23,7 @@ function toggleTheme(event) {
 }
 
 // Check for saved theme preference or respect OS theme setting
-const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: light)');
 const currentTheme = localStorage.getItem('theme');
 const shouldUseDarkTheme = currentTheme === 'dark' || (!currentTheme && prefersDarkScheme.matches);
 

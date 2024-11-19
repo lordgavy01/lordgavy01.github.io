@@ -12,8 +12,14 @@ author_profile: false
       <div class="publication-content">
         <div class="publication-title">{{ pub.title }}</div>
         <div class="publication-authors">
-          {% for author in pub.authors %}
-            <a href="#">{{ author.name }}{% if author.superscript %}{{ author.superscript }}{% endif %}</a>{% unless forloop.last %},{% endunless %}
+          {% for author_entry in pub.authors %}
+            {% assign author = site.data.authors[author_entry.id] %}
+            {% if author.link %}
+              <a href="{{ author.link }}">{{ author.name }}{% if author_entry.superscript %}{{ author_entry.superscript }}{% endif %}</a>
+            {% else %}
+              {{ author.name }}{% if author_entry.superscript %}{{ author_entry.superscript }}{% endif %}
+            {% endif %}
+            {% unless forloop.last %},{% endunless %}
           {% endfor %}
         </div>
         <div class="publication-info">

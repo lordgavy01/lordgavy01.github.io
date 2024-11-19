@@ -70,6 +70,9 @@
       a, a:visited {
         color: lighten($link-color, 15%);
       }
+      a:hover {
+        color: #03e825 !important;
+      }
     }
   
     .page__footer {
@@ -118,7 +121,7 @@
       padding-bottom: 15px;
       margin-top: 10px;
       padding: 20px;
-      border-radius: 20px    
+      border-radius: 5px    
     }  
 
     /* Extra strong divider with gradient or shadow */
@@ -192,6 +195,14 @@
       /* Add your other button styles */
     }
 
+    .page__content a:hover{
+      color: #03e825;
+    }
+
+    .archive .main-publication-container a:hover{
+      color: #03e825 !important;
+    }
+
     }
 
   // Style for the toggle button
@@ -204,3 +215,12 @@
     font-size: 1em;
     margin-left: 1em;
   }
+
+  .archive a:hover {
+    color: red !important;
+  }
+  
+  .dark-theme {.archive a:hover {
+    color: #03e825 !important;
+  }
+}
