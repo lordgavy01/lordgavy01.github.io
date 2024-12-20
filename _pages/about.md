@@ -7,9 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a Research Engineer at [Sprinklr](https://www.sprinklr.com/) working on Conversational AI chatbots. 
+Hello!
 
-I graduated from IIIT-Hyderabad with a Dual (B.Tech + MS) Degree in Computer Science. I worked under  [Prof. Madhava Krishna](https://scholar.google.com/citations?user=QDuPGHwAAAAJ&hl=en) at the [Robotics Research Center](https://robotics.iiit.ac.in/), where I worked on the areas of Autonomous Driving along with [Prof. Arun K. Singh](https://scholar.google.com/citations?user=0zgDoIEAAAAJ&hl=en). Later, I also collaborated with [Dr. Krishna Murthy Jatavallabhula](https://krrish94.github.io/) and we studied application of some Vision-Language Models in Autonomous Driving. I also explored Swarm Robotics along with [Prof. Harikumar Kandath](https://www.researchgate.net/profile/Harikumar-Kandath). 
+I am an Engineer employed at [Sprinklr AI](https://www.sprinklr.com/), where I am working on [Conversational AI]("https://www.sprinklr.com/products/customer-service/conversational-ai/") services such as FAQ and Smart Recommendation.
+
+My interests lie in how we can utilize <b>large-scale foundation models</b> to enable <em>intuitive</em> human-robot interaction.
+
+Previously, I graduated from IIIT-Hyderabad with a Dual (B.Tech + MS) Degree in Computer Science, where I studied autonomous driving and swarm robots at the [Robotics Research Center](https://robotics.iiit.ac.in/). I worked under  [Prof. Madhava Krishna](https://scholar.google.com/citations?user=QDuPGHwAAAAJ&hl=en) and [Prof. Harikumar Kandath](https://www.researchgate.net/profile/Harikumar-Kandath), and published papers at top conferences like IEEE ICRA, CASE and ICARA. 
 
 If you wish to connect, please drop an email to [**vikrant.dewangan@research.iiit.ac.in**](mailto:vikrant.dewangan@research.iiit.ac.in)
 
@@ -18,6 +22,7 @@ News
 ======
 
 {% capture table_content %}
+| Dec, 2024 | Our paper [ "When Every Token Counts" ](https://arxiv.org/abs/2412.06926) on tokenization for Low-Resource languages is accepted into [ "LoResLM @ COLING 2025" ](https://loreslm.github.io/) ! |
 | Mar, 2024 | Served as a reviewer for [IROS-2024](https://iros2024-abudhabi.org/) |
 | Jan, 2024 | Our paper on Vision-language models in Autonomous Driving titled ["Talk2BEV: Language-enhanced Bird's Eye View maps"](https://llmbev.github.io/talk2bev/) gets accepted into [ICRA-2024](https://2024.ieee-icra.org/) |
 | Dec, 2023 | Defended my [Master's thesis](https://drive.google.com/file/d/1DdvOspjY5rZC4TLr590feoNLmlnSCMcv/view?usp=sharing) at IIIT-Hyderabad. |
