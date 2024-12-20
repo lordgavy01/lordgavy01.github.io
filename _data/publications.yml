@@ -61,7 +61,7 @@
     - id: vikrant
       superscript: "*"
     - id: raghav
-  journal: "Language Models for Low-Resource Languages (LoResLM) Workshop @ COLING 2025"
+  journal: "Language Models for Low-Resource Languages (LoResLM) Workshop @ COLING"
   location: "Abu Dhabi"
   date: 2025-01-15
   image: "/images/token.png"
