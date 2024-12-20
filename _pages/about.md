@@ -9,7 +9,7 @@ redirect_from:
 
 Hello!
 
-I am an Engineer employed at [Sprinklr AI](https://www.sprinklr.com/), where I am working on [Conversational AI]("https://www.sprinklr.com/products/customer-service/conversational-ai/") services such as FAQ and Smart Recommendation. My tasks include productionizing [Retrieval-Augmented Generation (RAG)](https://www.sprinklr.com/blog/how-sprinklr-uses-RAG/) pipelines to deliver Generative AI to businesses.
+I am an Engineer employed at [Sprinklr AI](https://www.sprinklr.com/), where I am working on [Conversational AI]("https://www.sprinklr.com/products/customer-service/conversational-ai/") services such as FAQ and Smart Recommendation. My tasks include developing efficient [Retrieval-Augmented Generation (RAG)](https://www.sprinklr.com/blog/how-sprinklr-uses-RAG/) pipelines to deliver Generative AI experience to customers.
 
 My interests lie in how we can utilize <b>large-scale foundation models</b> to enable <em>intuitive</em> human-robot interaction.
 
