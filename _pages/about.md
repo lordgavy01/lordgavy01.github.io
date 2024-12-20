@@ -9,11 +9,11 @@ redirect_from:
 
 Hello!
 
-I am an Engineer employed at [Sprinklr AI](https://www.sprinklr.com/), where I am working on [Conversational AI]("https://www.sprinklr.com/products/customer-service/conversational-ai/") services such as FAQ and Smart Recommendation.
+I am an Engineer employed at [Sprinklr AI](https://www.sprinklr.com/), where I am working on [Conversational AI]("https://www.sprinklr.com/products/customer-service/conversational-ai/") services such as FAQ and Smart Recommendation. My tasks include productionizing [Retrieval-Augmented Generation (RAG)](https://www.sprinklr.com/blog/how-sprinklr-uses-RAG/) pipelines to deliver Generative AI to businesses.
 
 My interests lie in how we can utilize <b>large-scale foundation models</b> to enable <em>intuitive</em> human-robot interaction.
 
-Previously, I graduated from IIIT-Hyderabad with a Dual (B.Tech + MS) Degree in Computer Science, where I studied autonomous driving and swarm robots at the [Robotics Research Center](https://robotics.iiit.ac.in/). I worked under  [Prof. Madhava Krishna](https://scholar.google.com/citations?user=QDuPGHwAAAAJ&hl=en) and [Prof. Harikumar Kandath](https://www.researchgate.net/profile/Harikumar-Kandath), and published papers at top conferences like IEEE ICRA, CASE and ICARA. 
+Previously, I graduated from IIIT-Hyderabad with a Dual (B.Tech + MS) Degree in Computer Science, where I studied autonomous driving and swarm robots at the [Robotics Research Center](https://robotics.iiit.ac.in/) under  [Prof. Madhava Krishna](https://scholar.google.com/citations?user=QDuPGHwAAAAJ&hl=en) and [Prof. Harikumar Kandath](https://www.researchgate.net/profile/Harikumar-Kandath), and published papers at conferences like IEEE [ICRA](https://2024.ieee-icra.org/), [CASE](https://case2023.org/) and [ICARA](https://www.icara.us/). 
 
 If you wish to connect, please drop an email to [**vikrant.dewangan@research.iiit.ac.in**](mailto:vikrant.dewangan@research.iiit.ac.in)
 
