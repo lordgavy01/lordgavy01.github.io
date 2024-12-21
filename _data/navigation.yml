@@ -15,4 +15,4 @@ main:
     url: /blog/
 
   - title: "CV"
-    url: /assets/cv.pdf
+    url: "https://raw.githubusercontent.com/Vikr-182/Vikr-182.github.io/master/assets/CV.pdf"

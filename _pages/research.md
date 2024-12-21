@@ -5,24 +5,23 @@ permalink: /research/
 author_profile: false
 ---
 
-<div class="full-text">
-<div class="content">
-My research is broadly in the following areas:
-<ul>
-  <li> Autonomous Driving - Uncertainty Estimation </li>
-  <li> Foundational Models applications in Autonomous Driving </li>
-  <li> Swarm Robotics </li>
-</ul>
+## Research
+My research studies **Bird's Eye View (BEV)** perception methods in autonomous driving under the supervision of under  [Prof. Madhava Krishna](https://scholar.google.com/citations?user=QDuPGHwAAAAJ&hl=en). With [Prof. Arun K. Singh](https://scholar.google.com/citations?user=0zgDoIEAAAAJ&hl=en), I have devised novel _uncertainty-aware_ planners within end-to-end BEV frameworks. 
 
-</div>
+I also briefly explored **distributed Model Predictive Control (MPC)** algorithms for **multi-UAV formation** control under [Prof. Harikumar Kandath](https://www.researchgate.net/profile/Harikumar-Kandath). Within the MPC framework, I integrated  **collision avoidance** and robustness to **imperfect communication**.
+
+With [Dr. Krishna Murthy Jatavallabhula](https://krrish94.github.io/), I studied **vision-language models (VLMs)** for BEV methods in autonomous driving and extended the networks with _semantic understanding_ and _visual reasoning_ capabilities.
+
+At [Sprinklr AI](https://www.sprinklr.com/products/customer-service/conversational-ai/), I studied methods efficient **tokenization** strategies to _adapt_ large-language models (LLMs) to **low-resource languages**.
+
+
+## Publications
 
 <hr class="strong-divider">
-
 <div class="main-publications-container">
   {% for pub in site.data.publications %}
     <div class="publication-item">
       <img src="{{ pub.image | default: '/path/to/default/image.jpg' }}" alt="{{ pub.title }}" class="main-publication-image">
-      <br/>
       <div class="publication-content">
         <div class="publication-title">{{ pub.title }}</div>
         <div class="publication-authors">
@@ -51,6 +50,4 @@ My research is broadly in the following areas:
       </div>
     </div>
   {% endfor %}
-</div>
-
 </div>
