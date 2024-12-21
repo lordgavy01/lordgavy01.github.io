@@ -178,39 +178,3 @@ h1 {
 article {
     max-width: 1000px;
 }
-
-
-/* Custom width classes */
-  .card-width-12 {
-    flex: 1 1 100%; /* Adjusts width to 30% of the container */
-  }
-
-  .card-width-10 {
-    flex: 1 1 83%; /* Adjusts width to 30% of the container */
-  }  
-
-  /* Custom width classes */
-   .card-width-9 {
-    flex: 1 1 75%; /* Adjusts width to 30% of the container */
-  }
-  
-  .card-width-8 {
-    flex: 1 1 66%; /* Adjusts width to 60% of the container */
-  }
-
-  .card-width-6 {
-    flex: 1 1 50%; /* Adjusts width to 60% of the container */
-  }
-
-  .card-width-4 {
-    flex: 1 1 33%; /* Adjusts width to 60% of the container */
-  }
-
-  .card-width-3 {
-    flex: 1 1 25%; /* Adjusts width to 60% of the container */
-  }
-  
-  .card-width-2 {
-    flex: 1 1 16%; /* Adjusts width to 60% of the container */
-  }
-
