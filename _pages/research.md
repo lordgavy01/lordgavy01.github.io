@@ -6,11 +6,9 @@ author_profile: false
 ---
 
 ## Research
-My research studies **Bird's Eye View (BEV)** perception methods in autonomous driving under the supervision of under  [Prof. Madhava Krishna](https://scholar.google.com/citations?user=QDuPGHwAAAAJ&hl=en). With [Prof. Arun K. Singh](https://scholar.google.com/citations?user=0zgDoIEAAAAJ&hl=en), I have devised novel _uncertainty-aware_ planners within end-to-end BEV frameworks. 
+My research studies **Bird's Eye View (BEV)** perception methods in autonomous driving under the supervision of under  [Prof. Madhava Krishna](https://scholar.google.com/citations?user=QDuPGHwAAAAJ&hl=en). With [Dr. Krishna Murthy Jatavallabhula](https://krrish94.github.io/), I studied **vision-language models (VLMs)** for BEV methods in autonomous driving and extended the networks with _semantic understanding_ and _visual reasoning_ capabilities. Under [Prof. Arun K. Singh](https://scholar.google.com/citations?user=0zgDoIEAAAAJ&hl=en), I also devised novel _uncertainty-aware_ planners within end-to-end BEV frameworks. 
 
-I also briefly explored **distributed Model Predictive Control (MPC)** algorithms for **multi-UAV formation** control under [Prof. Harikumar Kandath](https://www.researchgate.net/profile/Harikumar-Kandath). Within the MPC framework, I integrated  **collision avoidance** and robustness to **imperfect communication**.
-
-With [Dr. Krishna Murthy Jatavallabhula](https://krrish94.github.io/), I studied **vision-language models (VLMs)** for BEV methods in autonomous driving and extended the networks with _semantic understanding_ and _visual reasoning_ capabilities.
+I briefly explored **distributed Model Predictive Control (MPC)** algorithms for **multi-UAV formation** control under [Prof. Harikumar Kandath](https://www.researchgate.net/profile/Harikumar-Kandath). Within the MPC framework, I integrated  **collision avoidance** and robustness to **imperfect communication**.
 
 At [Sprinklr AI](https://www.sprinklr.com/products/customer-service/conversational-ai/), I studied methods efficient **tokenization** strategies to _adapt_ large-language models (LLMs) to **low-resource languages**.
 

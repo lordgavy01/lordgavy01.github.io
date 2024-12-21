@@ -1,3 +1,20 @@
+- title: "When Every Token Counts: Optimal Segmentation for Low-Resource Language Models"
+  authors:
+    - id: bharath
+      superscript: "*"
+    - id: garvit
+      superscript: "*"
+    - id: vikrant
+      superscript: "*"
+    - id: raghav
+  journal: "Language Models for Low-Resource Languages (LoResLM) Workshop @ COLING"
+  location: "Abu Dhabi"
+  date: 2025-01-15
+  image: "/images/paper.png"
+  abstract: "Traditional greedy tokenization methods have been a critical step in Natural Language Processing (NLP), influencing how text is converted into tokens and directly impacting model performance. While subword tokenizers like Byte-Pair Encoding (BPE) are widely used, questions remain about their optimality across model scales and languages. In this work, we demonstrate through extensive experiments that an optimal BPE configuration significantly reduces token count compared to greedy segmentation, yielding improvements in token-saving percentages and performance benefits, particularly for smaller models. We evaluate tokenization performance across various intrinsic and extrinsic tasks, including generation and classification. Our findings suggest that compression-optimized tokenization strategies could provide substantial advantages for multilingual and low-resource language applications, highlighting a promising direction for further research and inclusive NLP.  "
+  html_link: "https://arxiv.org/abs/2412.06926"
+  pdf_link: "https://arxiv.org/abs/2412.06926"
+  video_link: ""
 - title: "Talk2BEV: Language-Enhanced Bird's Eye View (BEV) Maps"
   authors:
     - id: vikrant
@@ -52,20 +69,3 @@
   html_link: "https://sites.google.com/view/uap-bev/home"
   pdf_link: "https://arxiv.org/abs/2306.04939"
   video_link: "https://www.youtube.com/watch?v=WqsBwMW3KK4"
-- title: "When Every Token Counts: Optimal Segmentation for Low-Resource Language Models"
-  authors:
-    - id: bharath
-      superscript: "*"
-    - id: garvit
-      superscript: "*"
-    - id: vikrant
-      superscript: "*"
-    - id: raghav
-  journal: "Language Models for Low-Resource Languages (LoResLM) Workshop @ COLING"
-  location: "Abu Dhabi"
-  date: 2025-01-15
-  image: "/images/paper.png"
-  abstract: "Traditional greedy tokenization methods have been a critical step in Natural Language Processing (NLP), influencing how text is converted into tokens and directly impacting model performance. While subword tokenizers like Byte-Pair Encoding (BPE) are widely used, questions remain about their optimality across model scales and languages. In this work, we demonstrate through extensive experiments that an optimal BPE configuration significantly reduces token count compared to greedy segmentation, yielding improvements in token-saving percentages and performance benefits, particularly for smaller models. We evaluate tokenization performance across various intrinsic and extrinsic tasks, including generation and classification. Our findings suggest that compression-optimized tokenization strategies could provide substantial advantages for multilingual and low-resource language applications, highlighting a promising direction for further research and inclusive NLP.  "
-  html_link: "https://arxiv.org/abs/2412.06926"
-  pdf_link: "https://arxiv.org/abs/2412.06926"
-  video_link: ""
