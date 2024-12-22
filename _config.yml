@@ -48,7 +48,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  facebook         : # Username
+  facebook         : "vikrant.d123"
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
@@ -56,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : vikrant-dewangan
+  linkedin         : # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -69,7 +69,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : # Username
+  youtube          : vikrantdewangan
   zhihu            : # URL
 
 # Publication Category - The following the list of publication categories and their headings
