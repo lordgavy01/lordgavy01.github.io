@@ -1,0 +1,90 @@
+language,50K,100K,200K,country
+Oromo,4.72,5.27,3.02,Ethiopia
+Swati,4.14,5.17,3.63,Eswatini
+Quechua,4.74,5.09,4.81,Peru
+Zulu,4.49,4.74,3.61,South Africa
+Xhosa,4.24,4.65,3.46,South Africa
+Somali,3.59,4.51,2.59,Somalia
+Finnish,3.80,4.32,3.37,Finland
+Uzbek,3.57,4.30,3.52,Uzbekistan
+Tamil Romanized,3.99,4.22,4.20,India
+Estonian,3.45,4.10,3.18,Estonia
+Basque,4.53,4.06,3.56,Spain
+Hausa,3.52,3.83,1.51,Nigeria
+Telugu Romanized,4.13,3.76,3.75,India
+Swahili,3.74,3.73,2.37,Tanzania
+Ganda,3.27,3.68,2.62,Uganda
+Malagasy,3.57,3.54,2.38,Madagascar
+Welsh,2.98,3.37,2.36,United Kingdom
+Scottish Gaelic,2.00,3.15,1.89,United Kingdom
+Lithuanian,3.04,3.10,2.85,Lithuania
+Hungarian,2.37,3.04,2.92,Hungary
+Sardinian,2.87,3.02,1.91,Italy
+Albanian,2.02,3.01,2.43,Albania
+Tswana,2.66,2.99,1.78,Botswana
+Polish,2.49,2.97,2.39,Poland
+Turkish,2.90,2.88,2.62,Turkey
+Breton,2.51,2.83,2.28,France
+Irish,1.81,2.78,2.14,Ireland
+Guarani,2.54,2.78,2.53,Paraguay
+Javanese,3.26,2.74,2.04,Indonesia
+Malay,4.05,2.73,1.72,Malaysia
+Bengali Romanized,2.50,2.70,2.40,Bangladesh
+Icelandic,1.97,2.70,2.76,Iceland
+Bosnian,3.40,2.65,2.08,"Bosnia and Herzegovina"
+Esperanto,2.56,2.65,2.06,Poland
+Croatian,3.20,2.61,2.11,Croatia
+Swedish,2.27,2.59,1.96,Sweden
+Urdu Romanized,2.19,2.57,2.43,Pakistan
+Slovenian,2.91,2.57,2.04,Slovenia
+Tagalog,3.38,2.56,1.47,Philippines
+Limburgish,2.14,2.54,2.28,Netherlands
+Sundanese,2.84,2.47,2.02,Indonesia
+Slovak,1.96,2.45,2.59,Slovakia
+Indonesian,3.83,2.43,1.58,Indonesia
+Afrikaans,2.43,2.38,1.85,South Africa
+Danish,2.24,2.37,1.90,Denmark
+Latvian,2.69,2.34,2.10,Latvia
+Norwegian,2.61,2.31,1.87,Norway
+Fulah,2.52,2.27,2.36,Senegal
+Czech,1.76,2.26,2.23,"Czech Republic"
+Frisian,2.23,2.25,1.97,Netherlands
+Dutch,2.56,2.24,1.27,Netherlands
+Romansh,2.40,2.24,1.51,Switzerland
+Northern Sotho,2.41,2.09,2.23,South Africa
+Latin,2.70,2.07,1.91,Italy
+Catalan,1.70,2.04,1.22,Spain
+Hindi Romanized,1.85,2.03,2.01,India
+German,2.99,2.02,1.43,Germany
+Romanian,2.07,2.01,1.51,Romania
+Lingala,2.32,1.98,1.63,"Democratic Republic of the Congo"
+Italian,2.84,1.98,1.33,Italy
+Wolof,1.65,1.91,1.90,Senegal
+Kurdish,1.95,1.90,1.64,Iraq
+Haitian,2.00,1.81,1.15,Haiti
+Galician,2.19,1.79,1.07,Spain
+Bulgarian,0.18,1.74,1.77,Bulgaria
+Azerbaijani,1.48,1.72,2.79,Azerbaijan
+Portuguese,1.97,1.43,0.73,Portugal
+Macedonian,0.13,1.28,2.07,"North Macedonia"
+Serbian,0.16,1.26,2.33,Serbia
+French,1.61,1.22,0.65,France
+Spanish,2.55,1.21,0.56,Spain
+Russian,0.24,1.20,1.10,Russia
+Igbo,0.60,1.18,1.39,Nigeria
+Kyrgyz,0.06,1.15,2.31,Kyrgyzstan
+Ukrainian,0.13,0.97,1.91,Ukraine
+Belarusian,0.01,0.96,2.50,Belarus
+Kazakh,0.07,0.86,2.31,Kazakhstan
+Mongolian,0.03,0.35,1.89,Mongolia
+Yoruba,0.34,0.32,1.08,Nigeria
+Hebrew,0.16,0.24,1.17,Israel
+Korean,0.02,0.22,0.07,"South Korea"
+English,0.21,0.21,0.18,"United Kingdom"
+Vietnamese,0.15,0.21,0.08,Vietnam
+Persian,0.01,0.09,1.55,Iran
+Chinese (Traditional),0.03,0.06,0.07,Taiwan
+Arabic,0.01,0.05,1.58,"Saudi Arabia"
+Yiddish,0.09,0.04,1.67,Israel
+Uyghur,0.01,0.04,2.61,China
+Chinese (Simplified),0.01,0.04,0.08,China

@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f9f9f9;
+}
+
+/* CONTROLS: inline radio buttons */
+#controls {
+  display: flex;               /* Put all children on a single line */
+  justify-content: center;     /* Center horizontally */
+  align-items: center;
+  background: #f9f9f9;
+  color: #222;
+  padding: 1rem;
+}
+#controls label {
+  margin: 0 1rem;             /* space between buttons */
+  display: inline-block;      /* ensure each label is inline-block */
+}
+#controls input[type="radio"] {
+  margin-right: 0.25rem;      /* small spacing before text */
+}
+
+#map-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  background: #fff; /* White background behind map */
+}
+
+svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: #f0f0f0;
+}
+
+.country {
+  stroke: #000;
+  stroke-width: 0.5px;
+  cursor: pointer;
+}
+.country:hover {
+  opacity: 0.8;
+}
+
+/* Fancy tooltip */
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: #222;
+  color: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  font-size: 0.85rem;
+  line-height: 1.3rem;
+  max-width: 240px;
+
+  /* Fade in via transition */
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+/* Show tooltip: set opacity=1 */
+#tooltip.show {
+  opacity: 1;
+}
+
+/* LEGEND styling */
+#legend {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  gap: 1rem;              /* space between legend items */
+  margin: 0.5rem;
+  font-size: 0.8rem;
+  align-items: center;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+}
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+}
+
+svg {
+  border: 5px solid black;
+}
+
+@media (max-width: 768px) {
+  #legend {
+    font-size: 0.4rem;
+  }  
+  #tooltip {
+    font-size: 0.5rem;
+    line-height: 0.7rem;
+  }
+  svg {
+    border: 2px solid black;
+  }
+}

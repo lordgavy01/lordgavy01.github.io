@@ -243,7 +243,45 @@
   .project-card p {
     color: white;
   }
-  
+    
+  svg {
+    border: 5px solid white;
+  }
+
+  #controls {
+    background: #222;
+    color:white
+  }  
+
+
+  /* Fancy tooltip */
+  #tooltip {
+    background: #fff;
+    color: #222;
+    box-shadow: 0 4px 8px rgba(249, 249, 249, 0.2);
+  }  
+
+  #legend {
+    color: white;
+  }
+
+  @media (max-width: 768px) {
+    #legend {
+      font-size: 0.4rem;
+    }  
+    #tooltip {
+      font-size: 0.5rem;
+      line-height: 0.7rem;
+    }
+    svg {
+      border: 2px solid white;
+    }
+  }
+  .country {
+    stroke: #000;
+  }
+
+
 }
 
 .projects-container {

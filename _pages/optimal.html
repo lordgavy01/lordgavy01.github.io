@@ -1,0 +1,39 @@
+---
+layout: archive
+title: "Optimal Tokenization Algorithm"
+permalink: /loreslm/
+author_profile: false
+---
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Map Visualization</title>
+    <link rel="stylesheet" href="/assets/css/loreslm/style.css">
+</head>
+
+<div class="container">
+    <h2 style="display: flex;align-items: center;justify-content: center;"> Token-Saving Ratio (TSR) Visualization Country-wise </h2>
+    <div id="controls">
+        Vocab. size:
+        <label><input type="radio" name="metric" value="50K">50K</label>
+        <label><input type="radio" name="metric" value="100K">100K</label>
+        <label><input type="radio" name="metric" value="200K" checked>200K</label>
+      </div>
+
+    <!-- LEGEND (5 bins) -->
+    <div id="legend"> <p style="font-weight: bold;">Legend</p> </div>
+
+    <!-- Container for the map -->
+    <div id="map-container"></div>
+
+    <!-- Tooltip div -->
+    <div id="tooltip"></div>
+
+</div>
+  
+<head>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://unpkg.com/topojson@3"></script>
+<script src="/assets/js/loreslm/script.js"></script>
+</head>
