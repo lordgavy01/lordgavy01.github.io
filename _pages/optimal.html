@@ -9,11 +9,77 @@ author_profile: false
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Map Visualization</title>
+    <link rel="stylesheet" href="/assets/css/loreslm/bulma.min.css">    
     <link rel="stylesheet" href="/assets/css/loreslm/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 </head>
 
-<div class="container">
-    <h2 style="display: flex;align-items: center;justify-content: center;"> Token-Saving Ratio (TSR) Visualization Country-wise </h2>
+<div class="container is-max-desktop">
+    <div class="columns is-centered">
+    <div class="column has-text-centered">
+        <h1 class="title is-3 publication-title" style="padding-top: 50px;">When Every Token Counts: Optimal Segmentation for Low-Resource Language Models</h1>
+        <h2 class="title is-6 publlication-title">  <a href="https://loreslm.github.io/">Language Models for Low-Resource Languages Workshop (LoResLM) @ COLING 2025 </a></h2>
+        <div class="is-size-6 publication-authors">
+        <span class="author-block">
+            <a href="https://in.linkedin.com/in/rath772k">Bharath Raj S</a><sup>*</sup>,</span>
+        <span class="author-block">
+            <a href="https://in.linkedin.com/in/lordgavy01">Garvit Suri</a><sup>*</sup>,</span>
+        <span class="author-block">
+            <a href="https://vikr-182.github.io/">Vikrant Dewangan</a><sup>*</sup>,
+        </span>
+        <span class="author-block">
+            <a href="https://rudeninja.github.io/">Raghav Sonavane</a>
+        </span>
+        </div>
+
+        <div class="is-size-6">
+        <span class="author-block"><sup></sup> <a class="text-black" href="https://www.sprinklr.com">Sprinklr AI</a></span>
+        </div>
+
+        <div>
+        <sup>*</sup> Equal Contribution
+        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" style="font-size: 121.4%; position: relative;" tabindex="0" ctxtmenu_counter="2"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-msup><mjx-mi class="mjx-n"></mjx-mi><mjx-script style="vertical-align: 0.363em;"><mjx-mo class="mjx-n" size="s"><mjx-c class="mjx-c2020"></mjx-c></mjx-mo></mjx-script></mjx-msup></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi></mi></msup></math></mjx-assistive-mml></mjx-container>
+        </div>
+
+
+        <div class="column has-text-centered">
+        <div class="publication-links">
+            <!-- PDF Link. -->
+            <!-- <span class="link-block">
+            <a href="assets/pdf/talk2bev.pdf"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                </span>
+                <span>Paper</span>
+            </a>
+            </span> -->
+            <span class="link-block">
+            <a href="https://arxiv.org/abs/2412.06926" class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                </span>
+                <span>arXiv</span>
+            </a>
+            </span>
+            <span class="link-block">
+                <a href="https://github.com/rath772k/just_for_fun"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>            
+        </div>
+
+        </div>
+    </div>
+    </div>
+    <div class="is-centered has-text-centered">Please scroll to the bottom for the Algorithm.</div>
+    <div class="is-centered has-text-centered" style="padding-top: 40px;">
+    <h1 class="title is-4 publlication-title">Token-Saving Ratio (TSR) Visualization</h1>
+    </div>
     <div id="controls">
         Vocab. size:
         <label><input type="radio" name="metric" value="50K">50K</label>
@@ -30,6 +96,116 @@ author_profile: false
     <!-- Tooltip div -->
     <div id="tooltip"></div>
 
+    <div class="is-centered has-text-centered" style="padding-top: 40px; padding-bottom: 20px;">
+        <h1 class="title is-4 publlication-title">Algorithm</h1>
+    </div>
+    <div class="algorithm-box" style="padding-bottom: 40px;">
+      
+      <!-- Optional explanation paragraph below: -->
+      <div style="padding-bottom: 20px;">
+        We use a dynamic programming formulation similar to the 
+        <em>Viterbi algorithm</em> (<a href="https://ieeexplore.ieee.org/document/1450960">Forney, 1973 </a>) and produce the optimal segmentation 
+        <strong>\(S^*\)</strong>. Given a document \(d\), define \(\mathrm{dp}[i]\) as 
+        the minimal number of tokens needed to segment the prefix 
+        \(d_0 d_1 \dots d_i\) (positions 0 to \(i\)). We set 
+        \(\mathrm{dp}[-1] = 0\) as the base case, representing the empty prefix 
+        requiring zero tokens. The parent array \(\mathrm{par}\) serves as a
+        backtracking mechanism, where \(\mathrm{par}[i]\) points to the end of 
+        the previous token in the optimal segmentation.
+      </div>        
+        <table class="alg-table">
+          <!-- Line 1 -->
+          <tr>
+            <td class="alg-num">1:</td>
+            <td>
+              <strong>Input:</strong>
+              <br/>
+              <span class="alg-math">
+                \(B = [B_0, B_1,\dots,B_{n-1}] \in \Sigma^*\) (byte sequence)
+                <br/>
+                \(V \subset \Sigma^*\) (vocabulary)
+                <br/>
+                \(T(V^R)\) with root \(r\) (trie on reversed vocabulary \(V^R\))
+                <br/>
+                \(\delta(v) : T \to T \cup \{\varnothing\}\) (outputs child of \(v\) in trie \(T\))
+                <br/>
+                \(I : V \to \{\mathrm{True}, \mathrm{False}\}\) (indicator function detecting if node is terminal)
+              </span>
+            </td>
+          </tr>
+          <!-- Line 2 -->
+          <tr>
+            <td class="alg-num">2:</td>
+            <td>
+              <strong>Output:</strong> 
+              <span class="alg-math">\(S^* \in V^*\)</span> (optimal segmentation)
+            </td>
+          </tr>
+          <!-- Line 3 -->
+          <tr>
+            <td class="alg-num">3:</td>
+            <td>
+              <strong>Initialize:</strong>
+              <br/>
+              <span class="alg-math">
+                \(\displaystyle dp[i] \leftarrow i+1,\ \forall\,i \in [0,n-1]; \quad dp[n] \leftarrow 0\) 
+                <br/>
+                \(\displaystyle par[i] \leftarrow -1,\ \forall\,i \in [0,n-1]\)
+              </span>
+            </td>
+          </tr>
+          <!-- Line 4 -->
+          <tr>
+            <td class="alg-num">4:</td>
+            <td>
+              <strong>for</strong> \(i \in [0,n-1]\) do
+              <div style="padding-left:2em;">
+                \(v \leftarrow r\) 
+                <br/>
+                <strong>for</strong> \(j \leftarrow i \downarrow 0\) do
+                <div style="padding-left:2em;">
+                  \(v \leftarrow \delta\bigl(v,\,B[j]\bigr)\) (child of \(v\) for symbol \(B[j]\))<br/>
+                  <strong>if</strong> \(v = \varnothing\) <strong>then</strong> break<br/>
+                  <strong>if</strong> \(I(v)\ \wedge\ (\,dp[j-1] + 1 < dp[i]\,)\) <strong>then</strong><br/>
+                  &nbsp;&nbsp;\(dp[i] \leftarrow dp[j-1] + 1\)<br/>
+                  &nbsp;&nbsp;\(par[i] \leftarrow j-1\)<br/>
+                  <strong>end if</strong>
+                </div>
+                <strong>end for</strong>
+              </div>
+              <strong>end for</strong>
+            </td>
+          </tr>
+          <!-- Line 5 -->
+          <tr>
+            <td class="alg-num">5:</td>
+            <td>\(S \leftarrow \varnothing\) (initialize empty sequence)</td>
+          </tr>
+          <!-- Line 6 -->
+          <tr>
+            <td class="alg-num">6:</td>
+            <td>\(k \leftarrow n\)</td>
+          </tr>
+          <!-- Line 7 -->
+          <tr>
+            <td class="alg-num">7:</td>
+            <td>
+              <strong>while</strong> \(k > 0\) do
+              <div style="padding-left:2em;">
+                \(S \leftarrow S \cup \bigl\{\ B[\,(\,par[k]\,+\,1)\ :\ (k+1)\ ]\bigr\}\)<br/>
+                \((B[i:j]\) denotes substring\() <br/>
+                \(k \leftarrow par[k]\)
+              </div>
+              <strong>end while</strong>
+            </td>
+          </tr>
+          <!-- Line 8 -->
+          <tr>
+            <td class="alg-num">8:</td>
+            <td><strong>return</strong> \(S^R\) (reversed sequence)</td>
+          </tr>
+        </table>
+      </div>
 </div>
   
 <head>
