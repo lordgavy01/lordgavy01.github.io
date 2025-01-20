@@ -109,6 +109,9 @@ div.publication-authors, div.publication-info, div.publication-links, div.abstra
   div.page__footer {
     visibility: hidden;
   }
+  table {
+    font-size: 0.5em;
+  }
 }
 
 body {
