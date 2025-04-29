@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Vikrant Dewangan"
+title                    : "Garvit Suri"
 title_separator          : "-"
-name                     : &name "Vikrant Dewangan"
+name                     : &name "Garvit Suri"
 description              : &description "personal description"
-url                      : https://vikr-182.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://lordgavy01.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "vikr-182/vikr-182.github.io"
 
