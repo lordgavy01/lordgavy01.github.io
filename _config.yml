@@ -21,7 +21,7 @@ repository               : "lordgavy01/lordgavy01.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile_cropped.jpg"
   name             : "Garvit Suri"
   pronouns         : # example: "she/her"  
   bio              : "ML Engineer, Google"
