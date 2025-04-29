@@ -32,7 +32,7 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=K5jGqSQAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=ahYECVoAAAAJ&view_op=list_works&gmla=AIfU4H55X_yB3ivUtXM8P1GpUSlaaG4Mqno-1KQtik26cpr7wYgdK4BjxGa6zVRWIr6T5ac951NsFnhn53UmdBwEhqCZWzW2rR5qpX2NAUAWyTdpWlxgbLZQIvgEDbngZ-dUkpZkjX4FJEgStcf7NCnm3-dKkxy6YBxkZHyEGUbXl2E&sciund=2044892903509390757"
   impactstory      : # URL
   orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
@@ -48,15 +48,15 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  facebook         : "vikrant.d123"
+  facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : _gar.vit_
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : lordgavy01
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -64,12 +64,12 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : vikrant_dewn
+  twitter          : gavysuri3
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : vikrantdewangan
+  youtube          : # Username
   zhihu            : # URL
 
 # Publication Category - The following the list of publication categories and their headings
